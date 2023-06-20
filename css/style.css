@@ -570,6 +570,7 @@ body {
     margin-top: 0px;
   }
   .wrap .section05 .inner .map .location {
+    padding: 0px 50px 30px 50px;
     margin-bottom: 30px;
   }
   .wrap .section06 {
@@ -578,6 +579,12 @@ body {
   .wrap .section06 .inner .profile01 {
     gap: 70px;
   }
+  .wrap .section06 .inner .profile__bar {
+    margin: 0 auto;
+    margin-bottom: 70px;
+    margin-top: -20px;
+    width: 100%;
+  }
 }
 @media screen and (max-width: 480px) {
   .stick .stick__line {
@@ -585,6 +592,9 @@ body {
   }
   .stick .stick__txt {
     font: bold 14px/1 "Gowun Dodum";
+  }
+  .bar {
+    width: 80%;
   }
   .wrap {
     width: 480px;
@@ -650,6 +660,11 @@ body {
     flex-direction: column;
     align-items: center;
   }
+  .wrap .section06 .inner .profile__bar {
+    margin: 0 auto;
+    margin-bottom: 70px;
+    margin-top: -20px;
+  }
   .wrap .section06 .inner .profile01 {
     margin-top: 20px;
     margin-bottom: 50px;
@@ -693,8 +708,70 @@ body {
   .wrap .section06 .inner .profile02 .no1_ul01 {
     margin-bottom: 100px;
   }
+  .wrap .section06 .inner .profile02 .no1_ul02 {
+    display: block;
+    padding: 0px 20px;
+  }
+  .wrap .section06 .inner .profile02 .no1_ul02 .enter {
+    margin: 0 auto;
+    font-size: 13px;
+  }
   .wrap .section07 {
-    width: 80%;
+    width: 75%;
+  }
+  .wrap .section07 .inner .program {
+    padding-bottom: 50px;
+  }
+  .wrap .section07 .inner .program .first .artist_name {
+    font-size: 17px;
+    width: 60%;
+  }
+  .wrap .section07 .inner .program .first .title_music {
+    font: 500 16px/1.5 "Spectral", "Gowun Dodum";
+    width: 40%;
+  }
+  .wrap .section07 .inner .program .second .artist_name {
+    font-size: 17px;
+    width: 60%;
+  }
+  .wrap .section07 .inner .program .second .title_music {
+    font: 500 16px/1.5 "Spectral", "Gowun Dodum";
+    width: 40%;
+  }
+  .wrap .section07 .inner .program .third .artist_name {
+    font-size: 17px;
+    width: 60%;
+  }
+  .wrap .section07 .inner .program .third .title_music {
+    font: 500 16px/1.5 "Spectral", "Gowun Dodum";
+    width: 40%;
+  }
+  .wrap .section07 .inner .program .fourth .artist_name {
+    font-size: 17px;
+    width: 60%;
+  }
+  .wrap .section07 .inner .program .fourth .title_music {
+    font: 500 16px/1.5 "Spectral", "Gowun Dodum";
+    width: 40%;
+  }
+  .wrap .section07 .inner .program .fifth .artist_name {
+    font-size: 17px;
+    width: 60%;
+  }
+  .wrap .section07 .inner .program .fifth .title_music {
+    font: 500 16px/1.5 "Spectral", "Gowun Dodum";
+    width: 40%;
+  }
+  .wrap .section07 .inner .program .sixth .artist_name {
+    font-size: 17px;
+    width: 60%;
+  }
+  .wrap .section07 .inner .program .sixth .title_music {
+    font: 500 16px/1.5 "Spectral", "Gowun Dodum";
+    width: 40%;
+  }
+  .wrap .footer .inner .footer__txt {
+    font: 14px/1.5 "Spectral";
   }
 }
 
