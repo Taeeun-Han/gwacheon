@@ -605,7 +605,7 @@ body {
 //tablet
 @media screen and (max-width: $tablet) {
 	.wrap {
-		width: 100%;
+		width: 1024px;
 		//border: 3px solid #a31111;
 
 		.section01 {
@@ -704,7 +704,7 @@ body {
 	}
 
 	.wrap {
-		width: 539px;
+		width: 480px;
 
 		.section01 {
 			margin-top: 70px;
