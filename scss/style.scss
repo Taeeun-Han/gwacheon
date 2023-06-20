@@ -3,6 +3,10 @@ $mobile: 480px;
 
 @import "location.scss";
 
+html {
+	touch-action: manipulation;
+}
+
 * {
 	margin: 0px;
 	padding: 0px;
@@ -28,6 +32,9 @@ li {
 body {
 	background-color: #67473a;
 	box-sizing: border-box;
+	-ms-content-zooming: none;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
 }
 
 .inner {
