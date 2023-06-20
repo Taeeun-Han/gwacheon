@@ -527,7 +527,7 @@ body {
   color: #fff;
 }
 
-@media screen and (max-width: 1179px) {
+@media screen and (max-width: 1024px) {
   .wrap {
     width: 100%;
   }
@@ -572,7 +572,7 @@ body {
     gap: 70px;
   }
 }
-@media screen and (max-width: 539px) {
+@media screen and (max-width: 480px) {
   .stick .stick__line {
     height: 70px;
   }
