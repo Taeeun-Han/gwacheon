@@ -6,7 +6,7 @@ const menuMo = document.querySelector(".menuMo");
 
 //btnCall을 클릭할때
 
-btnCall.onclick = function(e){
+btnCall.onclick = function (e) {
     //링크이동금지
     e.preventDefault();
 
@@ -16,3 +16,8 @@ btnCall.onclick = function(e){
     menuMo.classList.toggle('on');
 }
 
+document.addEventListener('touchstart', function (event) {
+    if (event.touches.length > 1) {
+        event.preventDefault();
+    }
+}, { passive: false });
